@@ -1,0 +1,21 @@
+document.getElementById('btn1').addEventListener('click',()=>{
+    document.querySelector('.pop-container1').style.display='flex';
+});
+document.querySelector('.close1').addEventListener('click',()=>{
+    document.querySelector('.pop-container1').style.display='none' 
+})
+document.getElementById('btn2').addEventListener('click',()=>{
+    document.querySelector('.pop-container2').style.display='flex';
+});
+document.querySelector('.close2').addEventListener('click',()=>{
+    document.querySelector('.pop-container2').style.display='none' 
+})
+document.getElementById('btn3').addEventListener('click',()=>{
+    document.querySelector('.pop-container3').style.display='flex';
+});
+document.querySelector('.close3').addEventListener('click',()=>{
+    document.querySelector('.pop-container3').style.display='none' 
+})
+document.querySelector('.btn4').addEventListener('click',()=>{
+    document.querySelectorAll('input').forEach(input => input.value ='')
+})
